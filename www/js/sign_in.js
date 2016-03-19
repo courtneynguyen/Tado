@@ -19,7 +19,14 @@ var sign_in = (function() {
 	var onSignIn = function(){
 		var email = document.getElementById('sign-in-email').innerHTML;
 		var password = document.getElementById('sign-in-password').innerHTML;
+		var request = new XMLHttpRequest();
+		request.addEventListener('load', function(){
 
+		});
+		request.addEventListener('error', function(){
+
+		});
+		request.open();
 		// xmlhttprequest to server
 	}
 
